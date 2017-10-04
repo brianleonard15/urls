@@ -1,0 +1,22 @@
+{
+  "url": "parent url",
+  "children": [
+    {
+      "url": "child 1 url",
+      "children": [
+        {
+          "url": "grand child 1 of child 1",
+          "children": []
+        },
+        {
+          "url": "grand child 2 of child 1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "url": "child 2 url",
+      "children": []
+    }
+  ]
+}
