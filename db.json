@@ -1,4 +1,4 @@
-{
+[{
   "url": "parent url",
   "children": [
     {
@@ -19,4 +19,4 @@
       "children": []
     }
   ]
-}
+}]
