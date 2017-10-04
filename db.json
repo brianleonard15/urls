@@ -1,22 +1,39 @@
 {
-  "urls": [{
-    "url": "parent url",
-    "children": [{
-        "url": "child 1 url",
-        "children": [{
-            "url": "grand child 1 of child 1",
-            "children": []
-          },
-          {
-            "url": "grand child 2 of child 1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "url": "child 2 url",
-        "children": []
-      }
-    ]
-  }]
+  "urls": [
+    {
+      "id": 1,
+      "url": "http://google.com",
+      "links": [2, 3]
+    }, 
+    {
+      "id": 2,
+      "url": "http://google.com",
+      "links": [5, 6]
+    }, 
+    {
+      "id": 3,
+      "url": "http://google.com",
+      "links": [4]
+    }, 
+    {
+      "id": 4,
+      "url": "http://google.com",
+      "links": []
+    }, 
+    {
+      "id": 5,
+      "url": "http://google.com",
+      "links": []
+    }, 
+    {
+      "id": 6,
+      "url": "http://google.com",
+      "links": [7]
+    },
+    {
+      "id": 7,
+      "url": "http://google.com",
+      "links": []
+    }
+  ]    
 }
